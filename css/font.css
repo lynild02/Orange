@@ -1,0 +1,60 @@
+@font-face{
+    font-family: San Francisco Bold;
+    src: url(../fonts/System%20San%20Francisco%20Display%20Bold.ttf);
+}
+@font-face{
+    font-family: San Francisco Regular;
+    src: url(../fonts/System%20San%20Francisco%20Display%20Regular.ttf);
+}
+@font-face{
+    font-family: San Francisco Thin;
+    src: url(../fonts/System%20San%20Francisco%20Display%20Thin.ttf);
+}
+@font-face{
+    font-family: San Francisco Ultralight;
+    src: url(../fonts/System%20San%20Francisco%20Display%20Ultralight.ttf);
+}
+@font-face{
+    font-family: Microgramma;
+    src: url(../fonts/Microgramma%20Bold%20Extended.ttf);
+}
+@font-face{
+    font-family: Proxima Nova Alt Thin;
+    src: url(../fonts/proxima%20nova%20alt%20thin.ttf);
+}
+@font-face{
+    font-family: Raspberry;
+    src: url(../fonts/raspberrygranola.ttf);
+}
+@font-face{
+    font-family: Kissntell;
+    src: url(../fonts/Kiss%20&%20Tell.ttf);
+}
+@font-face{
+    font-family: Ringlead;
+    src: url(../fonts/Ringlead.ttf);
+}
+@font-face{
+    font-family: Other;
+    src: url(../fonts/The%20Others%20Are%20Here.otf);
+}
+@font-face{
+    font-family: AlpineCleanL;
+    src: url(../fonts/Alpine%20Typeface%20Clean%20light.ttf);
+}
+@font-face{
+    font-family: Glitch;
+    src: url(../fonts/A%20Glitch%20In%20Time.ttf);
+}
+@font-face{
+    font-family: Sweetly;
+    src: url(../fonts/Sweetly%20Broken.ttf);
+}
+@font-face{
+    font-family: Always;
+    src: url(../fonts/always%20forever.ttf);
+}
+@font-face{
+    font-family: Comfortaa-R;
+    src: url(../fonts/Comfortaa-Regular.ttf);
+}

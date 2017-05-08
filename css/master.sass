@@ -1,0 +1,109 @@
+*
+  box-sizing: border-box
+//Colours
+$orange: #EC6726
+$comforta: Comfortaa-R
+$green-o: #6B902D
+.page-overview
+  header
+    width: 100%
+    height: 160px
+    position: fixed
+    background-color: #fff
+    z-index: 10
+    box-shadow: 0px 2px 2px rgba(0,0,0,.3)
+    figure#mainlogo
+      width: 30%
+      min-width: 327px
+      height: 110px
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -65%)
+      margin: 0
+      padding: 0
+      img
+        width: 50%
+        height: auto
+        margin: 0 25%
+      figcaption
+        text-align: center
+        font-weight: bold
+        font-family: 'raleway', raleway, sans-serif, 'Microgramma', helvetica
+        color: $green-o
+        font-size: 1.4em
+    img#secondlogo
+      width: auto
+      height: 95px
+      top: 50%
+      right: 80px
+      position: absolute
+      transform: translateY(-65%)
+    nav
+      width: 100%
+      height: 35px
+      position: absolute
+      bottom: 0
+      background: $orange
+      font-family: $comforta
+      ul
+        width: 100%
+        padding-top: 5px
+        li
+          position: relative
+          float: left
+          display: inline-block
+          cursor: pointer
+          text-align: center
+          margin: 0
+          width: 20%
+          overflow: hidden
+          color: #fff
+          font-weight: bold
+          font-size: 1.2em
+          vertical-align: middle
+          a
+            text-decoration: none
+            color: #fff
+            transition: all .3s ease-in-out
+            &:hover
+             color: lightgreen
+             transition: all .3s ease-in-out
+  .wrapp
+    padding-top: 160px
+    z-index: -1
+    .hero-slide
+      width: 100%
+      display: block
+      .rslides
+        position: relative
+        overflow: hidden
+        width: 100%
+        height: 100%
+        list-style: none
+        display: block
+        li
+          position: relative
+          width: 100%
+          height: 100%
+          img
+            width: auto
+            height: auto
+            min-width: 100%
+            min-height: 100%
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+    .what
+      width: 100%
+      background: url(../img/bed-text.jpeg)
+        position: center center
+        repeat: repeat-x
+      #square-orange
+        background: $orange
+        color: #fff
+        padding: 20px
+        width: 35%
+        height: 100%
+        margin-left: 55%

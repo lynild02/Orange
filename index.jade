@@ -1,0 +1,63 @@
+//output:index.php
+doctype html
+html(lang='es')
+    head
+        title Orange Puebla
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
+        meta(name='description', content='description')
+        meta(name='keywords', content='keywords')
+        meta(name='author', content='author')
+        meta(name="robots", content="index, follow")
+        //- ----- link website ----- //
+        link(rel='icon' href='src/img/favicon.png' type='image/x-icon')
+        //- ----- CSS Files ----- //
+        link(rel='stylesheet', href='css/normalize.css')
+        link(rel='stylesheet', href='css/skeleton.css')
+        link(rel='stylesheet', href='css/master.min.css')
+        link(rel='stylesheet', href='css/font-awesome.min.css')
+        link(rel='stylesheet', href='css/font.css')
+        //- ----- JS Files ----- //
+        script(type='text/javascript', src='js/jquery.min.js')
+        script(type='text/javascript', src='js/responsiveslides.min.js')
+        script(type='text/javascript', src='js/main.js')
+        script.
+          $(function() {
+            $(".rslides").responsiveSlides({speed: 900});
+          });
+    body.page-overview
+      header
+        figure#mainlogo
+          img(src='img/logo.png', alt='orange_logo')
+          figcaption ORANGE PUEBLA 
+        img#secondlogo(src='img/logo_b.png', alt='bravhac_logo')
+        nav
+          ul
+            li
+              a(href='#') ¿Quien?
+            li
+              a(href='#') ¿Que Hacemos?
+            li
+              a(href='#') ¿Como?
+            li
+              a(href='#') Servicios
+            li
+              a(href='#') Contacto
+      .wrapp
+        .hero-slide.headerimg
+          ul.rslides
+            li
+              img(src='img/slides/h01.jpg', alt='')
+            li
+              img(src='img/slides/h02.jpg', alt='')
+            li
+              img(src='img/slides/h03.jpg', alt='')
+            li
+              img(src='img/slides/h04.jpg', alt='')
+            li
+              img(src='img/slides/h05.jpg', alt='')
+        .what
+          #square-orange
+            h4 ¿QUÉ HACEMOS?
+            p.
+              Cleanwork Orange® es un proceso en seco de desinfección y sanitización de colchones, con tecnología alemana, totalmente natural. El tratamiento garantiza la protección del colchón, eliminando y destruyendo ácaros, bacterias, moho y otros tipos de residuos que se encuentran en su colchón. De eficacia comprobada y beneficios inimaginables para su salud y confort. Además de ser un sistema efectivo e inofensivo, el servicio se presta a domicilio sin retirar en ningún momento el colchón, se realiza durante un período de tiempo que depende del tamaño de su colchón entre 20 y 40 minutos y éste podrá ser usado de inmediato.
