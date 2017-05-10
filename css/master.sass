@@ -4,6 +4,10 @@
 $orange: #EC6726
 $comforta: Comfortaa-R
 $green-o: #6B902D
+figure
+  margin: auto
+img
+  max-width: 100%
 .page-overview
   header
     width: 100%
@@ -107,3 +111,33 @@ $green-o: #6B902D
         width: 35%
         height: 100%
         margin-left: 55%
+    .what-2
+      width: 100%
+      padding-top: 20px
+      article.container
+        .img-row
+          width: 100%
+          margin: 0
+          figure
+            margin-bottom: 20px
+            position: relative
+            overflow: hidden
+            transform: translateX(20%)
+            opacity: 0
+            transition: all .5s ease-in-out
+            text-align: center
+            padding: 10px
+            img
+              width: auto
+              min-width: 100%
+              border-radius: 50%
+              height: auto
+              display: block
+              margin-bottom: 10px
+            &.is-showing
+              transform: translate(0%)
+              opacity: 1
+              transition: all .8s ease-in-out
+    .tech
+      span
+        color: $orange
