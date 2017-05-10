@@ -75,8 +75,29 @@
       </div>
       <div class="tech">
         <article class="container">
-          <p>Tecnología avanzada de <span>Espuma Ultra-seca<br>(aplicable a telas, piel y alfombras)</span><br><br>Usa miles de pequeñas burbujas, las cuales son 90% aire y 10% humedad</p>
+          <p>Tecnología avanzada de <span>Espuma Ultra-seca<br>(aplicable a telas, piel y alfombras)</span><br><br>Usa miles de pequeñas burbujas, las cuales son 90% aire y 10% humedad. Junto con nuestros detergentes son el mejor sistema de encapsulación de mugre.<br><br>!No galones de agua¡,así las alfombras y la tapicería de muebles y vestiduras quedan limpias y realmente secas en una hora o menos. Otros métodos de limpieza dejan exceso de agua sucia, por lo que las alfombras y muebles tardan mucho tiempo en secarse y corren el riesgo de generar malos olores y moho además fácilmente se re ensucian.<br><br>Para limpiar muebles, colchones, autos, vans, suv, tráileres, casas rodantes, botes y otros tipos de interiores.</p>
+          <div>
+            <figure><img src="source" title="title" alt="alt" attr>
+              <figcaption>Amigable con el medio ambiente</figcaption>
+            </figure>
+            <figure><img src="source" title="title" alt="alt" attr>
+              <figcaption>Baja humedad, secado rapido</figcaption>
+            </figure>
+            <figure><img src="source" title="title" alt="alt" attr>
+              <figcaption>Limpieza y extracción profunda</figcaption>
+            </figure>
+            <figure><img src="source" title="title" alt="alt" attr>
+              <figcaption>La manera segura de limpiar</figcaption>
+            </figure>
+            <figure><img src="source" title="title" alt="alt" attr>
+              <figcaption>Se mantiene limpio por mas tiempo</figcaption>
+            </figure>
+          </div>
+          <p><span>Importante mencionar que con esta tecnología también se limpian salas o vestiduras de PIEL.</span></p>
         </article>
+        <div class="tech">
+          <h4>Alfombras y <span>tapetes</span></h4>
+        </div>
       </div>
       <div id="dead-space" class="hero-slide"></div>
     </div>
