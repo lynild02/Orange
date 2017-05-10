@@ -1,7 +1,7 @@
 Pagina de prueba, perdon por las imagenes porno! XD
 
 //////////////////////////////////////////////////////
-Segunda pagina para orangepuebla.com.
+Segunda pagina para <a href="http://orangepuebla.com">orangepuebla.com</a>.
 Basada en el diseño de CleanWork Orange.
 
 //////////////////////////////////////////////////////
