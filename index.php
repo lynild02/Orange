@@ -25,7 +25,7 @@
     </script>
   </head>
   <body class="page-overview">
-    <header>
+    <header class="header-t">
       <figure id="mainlogo"><img src="img/logo.png" alt="orange_logo">
         <figcaption>ORANGE PUEBLA </figcaption>
       </figure><img id="secondlogo" src="img/logo_b.png" alt="bravhac_logo">
@@ -95,11 +95,29 @@
           </div>
           <p><span>Importante mencionar que con esta tecnología también se limpian salas o vestiduras de PIEL.</span></p>
         </article>
-        <div class="tech">
-          <h4>Alfombras y <span>tapetes</span></h4>
-        </div>
       </div>
-      <div id="dead-space" class="hero-slide"></div>
+      <div class="tech">
+        <h4><b>Alfombras y <span>tapetes</span></b></h4>
+        <p>El limpiador de alfombras en seco de formulación exclusiva, esta diseñado para usarse en muchas aplicaciones y satisfacer todas sus necesidades de limpieza de alfombras y tapetes. Eliminan manchas, derrames y suciedad grasosa o aceitosa.</p><img src="img/circles.png" alt="servicios">
+      </div>
+      <div class="how">
+        <article class="container">
+          <h2>COMO LO HACEMOS?</h2>
+          <div class="row img-row">
+            <video src="video/01.mp4" type="video/mp4" controls preload class="columns four"></video>
+            <video src="video/01.mp4" type="video/mp4" controls preload class="columns four"></video>
+            <video src="video/01.mp4" type="video/mp4" controls preload class="columns four"></video>
+          </div>
+          <p>La limpieza profunda y desinfección de colchones funciona así: La máquina utiliza un potente sistema de aspiración y emite vibraciones de alta frecuencia las cuales destruyen y extraen a los ácaros y muchos otros microorganismos presentes en el colchón. Además cuenta con una luz UV-C germicida que desactiva el ADN de bacterias, virus y otros agentes patógenos destruyendo su capacidad de multiplicarse y causar enfermedades. La cantidad de ácaros, sus excrementos y demás microorganismos que se pueden encontrar en un colchón varía, pero en ocasiones puede representar hasta un 20% del peso total del colchón.</p>
+        </article>
+      </div>
+      <div class="cert">
+        <article class="container">
+          <h3>CERTIFICACIONES</h3>
+          <div class="row"><img src="img/cert.jpg" alt="cert" class="columns four"><img src="img/cert.jpg" alt="cert" class="columns four"><img src="img/cert.jpg" alt="cert" class="columns four"></div>
+        </article>
+      </div>
     </div>
+    <div id="dead-space" class="hero-slide"></div>
   </body>
 </html>
