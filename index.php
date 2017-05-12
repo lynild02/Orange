@@ -117,6 +117,45 @@
           <div class="row"><img src="img/cert.jpg" alt="cert" class="columns four"><img src="img/cert.jpg" alt="cert" class="columns four"><img src="img/cert.jpg" alt="cert" class="columns four"></div>
         </article>
       </div>
+      <div class="our-servs">
+        <article class="container">
+          <h3>NUESTROS SERVICIOS</h3>
+          <div class="row">
+            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+              <figcaption>limpieza y desinfección de colchones (&aacute;caros)</figcaption>
+            </figure>
+            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+              <figcaption>limpieza y desinfeccón de tapicerías a baja humedad</figcaption>
+            </figure>
+            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+              <figcaption>LIMPIEZA Y DESINFECCIÓN EN SECO PARA TAPETES, ALFOMBRAS Y CUALQUIER TIPO DE MUEBLE TAPIZADO CON TEXTILES</figcaption>
+            </figure>
+          </div>
+          <div class="row">
+            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+              <figcaption>LIMPIEZA DE VESTIDURAS DE AUTOS</figcaption>
+            </figure>
+            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+              <figcaption>LIMPIEZA DE MAMPARAS</figcaption>
+            </figure>
+            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+              <figcaption>LIMPIEZA DE SALAS Y VESTIDURAS DE PIEL</figcaption>
+            </figure>
+          </div>
+        </article>
+      </div>
+      <div class="percent">
+        <p>Algunos estudios de investigación han mostrado que una limpieza con nuestro sistema reduce:</p>
+        <div class="row"></div>
+        <p>No se forma moho ni añublo (hongo) por la humedad de las alfombras.</p>
+      </div>
+      <div class="juntas">
+        <div id="left-l">
+          <h3>Limpieza de juntas del piso y todo tipo de piso texturizado</h3>
+          <p>Con este sistema también se puede limpiar las uniones de piso (juntas). Además de lavar todo tipo de pisos texturizados como: Loseta de cerámica, ladrillo, Slate, epóxico, piedra caliza, cantera, etc.</p>
+        </div>
+      </div>
+      <h2 id="hcont">CONTACTO</h2>
     </div>
     <div id="dead-space" class="hero-slide"></div>
   </body>
