@@ -157,6 +157,31 @@
       </div>
       <h2 id="hcont">CONTACTO</h2>
     </div>
-    <div id="dead-space" class="hero-slide"></div>
+    <footer>
+      <article class="container">
+        <div class="sectionist">
+          <form id="ajax-form" action="mail-it.php" method="post" name="ajax-form" class="contacto orange-c">
+            <input id="name" type="text" name="name" placeholder="Nombre">
+            <input id="tel" type="text" name="tel" placeholder="Telefono">
+            <input id="mail" type="email" name="mail" placeholder="Su correo electronico">
+            <textarea name="message" cols="40" rows="3"></textarea>
+            <input type="submit" name="enviar" value="Enviar" class="send send_message button-primary">
+          </form>
+        </div>
+        <div class="sectionist text-n">
+          <h4>llamanos</h4>
+          <h2><a href="2223215147" attr="celphone">22.23.21.51.47</a></h2><img src="img/fb.png">
+          <p>Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien</p><img src="img/visa.png">
+        </div>
+        <div class="sectionist text-n">
+          <h4>escribenos</h4>
+          <h5><a href="mailto:info@orangepuebla.com" target="_blank">info@orangepuebla.com</a></h5><img src="img/wp.png">
+          <p>
+            Contáctanos por Whatsapp
+            <span>22.23.21.51.47</span>
+          </p>
+        </div>
+      </article>
+    </footer>
   </body>
 </html>

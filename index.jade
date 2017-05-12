@@ -154,4 +154,28 @@ html(lang='es')
             p.
               Con este sistema también se puede limpiar las uniones de piso (juntas). Además de lavar todo tipo de pisos texturizados como: Loseta de cerámica, ladrillo, Slate, epóxico, piedra caliza, cantera, etc.
         h2#hcont CONTACTO
-      #dead-space.hero-slide
+      footer
+        article.container
+          .sectionist
+            form#ajax-form.contacto.orange-c(action='mail-it.php', method='post', name='ajax-form')
+              input#name(type='text', name='name', placeholder='Nombre')
+              input#tel(type='text', name='tel', placeholder='Telefono')
+              input#mail(type='email', name='mail', placeholder='Su correo electronico')
+              textarea(name='message', cols='40', rows='3')
+              input.send.send_message.button-primary(type='submit', name='enviar', value='Enviar') 
+          .sectionist.text-n
+            h4 llamanos
+            h2
+              a(href='2223215147', attr='celphone') 22.23.21.51.47
+            img(src='img/fb.png')
+            p.
+              Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien
+            img(src='img/visa.png')
+          .sectionist.text-n
+            h4 escribenos
+            h5
+              a(href='mailto:info@orangepuebla.com', target='_blank') info@orangepuebla.com
+            img(src='img/wp.png')
+            p.
+              Contáctanos por Whatsapp
+              <span>22.23.21.51.47</span>
