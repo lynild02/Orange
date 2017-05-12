@@ -42,11 +42,9 @@
     <div class="wrapp">
       <div class="hero-slide headerimg">
         <ul class="rslides">
-          <li><img src="img/slides/h01.jpg" alt=""></li>
-          <li><img src="img/slides/h02.jpg" alt=""></li>
-          <li><img src="img/slides/h03.jpg" alt=""></li>
-          <li><img src="img/slides/h04.jpg" alt=""></li>
-          <li><img src="img/slides/h05.jpg" alt=""></li>
+          <li><img src="img/slides/h01.jpg" alt="orange_dog"></li>
+          <li><img src="img/slides/h02.jpg" alt="orange_seat"></li>
+          <li><img src="img/slides/h03.jpg" alt="orange_arm"></li>
         </ul>
       </div>
       <div class="what">
@@ -159,27 +157,29 @@
     </div>
     <footer>
       <article class="container">
-        <div class="sectionist">
-          <form id="ajax-form" action="mail-it.php" method="post" name="ajax-form" class="contacto orange-c">
-            <input id="name" type="text" name="name" placeholder="Nombre">
-            <input id="tel" type="text" name="tel" placeholder="Telefono">
-            <input id="mail" type="email" name="mail" placeholder="Su correo electronico">
-            <textarea name="message" cols="40" rows="3"></textarea>
-            <input type="submit" name="enviar" value="Enviar" class="send send_message button-primary">
-          </form>
-        </div>
-        <div class="sectionist text-n">
-          <h4>llamanos</h4>
-          <h2><a href="2223215147" attr="celphone">22.23.21.51.47</a></h2><img src="img/fb.png">
-          <p>Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien</p><img src="img/visa.png">
-        </div>
-        <div class="sectionist text-n">
-          <h4>escribenos</h4>
-          <h5><a href="mailto:info@orangepuebla.com" target="_blank">info@orangepuebla.com</a></h5><img src="img/wp.png">
-          <p>
-            Contáctanos por Whatsapp
-            <span>22.23.21.51.47</span>
-          </p>
+        <div class="row">
+          <div class="sectionist columns four">
+            <form id="ajax-form" action="mail-it.php" method="post" name="ajax-form" class="contacto orange-c">
+              <input id="name" type="text" name="name" placeholder="Nombre">
+              <input id="tel" type="text" name="tel" placeholder="Telefono">
+              <input id="mail" type="email" name="mail" placeholder="Su correo electronico">
+              <textarea name="message" cols="40" rows="3"></textarea>
+              <input type="submit" name="enviar" value="Enviar" class="send send_message button-primary">
+            </form>
+          </div>
+          <div class="sectionist text-n columns four">
+            <h4>llamanos</h4>
+            <h2><a href="2223215147" attr="celphone">22.23.21.51.47</a></h2><img src="img/fb.png" class="rsoc">
+            <p>Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien</p><img src="img/visa.png">
+          </div>
+          <div class="sectionist text-n columns four">
+            <h4>escribenos</h4>
+            <h5><a href="mailto:info@orangepuebla.com" target="_blank" class="msorange">info@orangepuebla.com</a></h5><img src="img/wp.png" class="rsoc">
+            <p>
+              Contáctanos por Whatsapp
+              <span>22.23.21.51.47</span>
+            </p>
+          </div>
         </div>
       </article>
     </footer>

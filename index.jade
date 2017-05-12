@@ -48,15 +48,11 @@ html(lang='es')
         .hero-slide.headerimg
           ul.rslides
             li
-              img(src='img/slides/h01.jpg', alt='')
+              img(src='img/slides/h01.jpg', alt='orange_dog')
             li
-              img(src='img/slides/h02.jpg', alt='')
+              img(src='img/slides/h02.jpg', alt='orange_seat')
             li
-              img(src='img/slides/h03.jpg', alt='')
-            li
-              img(src='img/slides/h04.jpg', alt='')
-            li
-              img(src='img/slides/h05.jpg', alt='')
+              img(src='img/slides/h03.jpg', alt='orange_arm')
         .what
           #square-orange
             h4 ¿QUÉ HACEMOS?
@@ -156,26 +152,27 @@ html(lang='es')
         h2#hcont CONTACTO
       footer
         article.container
-          .sectionist
-            form#ajax-form.contacto.orange-c(action='mail-it.php', method='post', name='ajax-form')
-              input#name(type='text', name='name', placeholder='Nombre')
-              input#tel(type='text', name='tel', placeholder='Telefono')
-              input#mail(type='email', name='mail', placeholder='Su correo electronico')
-              textarea(name='message', cols='40', rows='3')
-              input.send.send_message.button-primary(type='submit', name='enviar', value='Enviar') 
-          .sectionist.text-n
-            h4 llamanos
-            h2
-              a(href='2223215147', attr='celphone') 22.23.21.51.47
-            img(src='img/fb.png')
-            p.
-              Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien
-            img(src='img/visa.png')
-          .sectionist.text-n
-            h4 escribenos
-            h5
-              a(href='mailto:info@orangepuebla.com', target='_blank') info@orangepuebla.com
-            img(src='img/wp.png')
-            p.
-              Contáctanos por Whatsapp
-              <span>22.23.21.51.47</span>
+          .row
+            .sectionist.columns.four
+              form#ajax-form.contacto.orange-c(action='mail-it.php', method='post', name='ajax-form')
+                input#name(type='text', name='name', placeholder='Nombre')
+                input#tel(type='text', name='tel', placeholder='Telefono')
+                input#mail(type='email', name='mail', placeholder='Su correo electronico')
+                textarea(name='message', cols='40', rows='3')
+                input.send.send_message.button-primary(type='submit', name='enviar', value='Enviar') 
+            .sectionist.text-n.columns.four
+              h4 llamanos
+              h2
+                a(href='2223215147', attr='celphone') 22.23.21.51.47
+              img.rsoc(src='img/fb.png')
+              p.
+                Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien
+              img(src='img/visa.png')
+            .sectionist.text-n.columns.four
+              h4 escribenos
+              h5
+                a.msorange(href='mailto:info@orangepuebla.com', target='_blank') info@orangepuebla.com
+              img.rsoc(src='img/wp.png')
+              p.
+                Contáctanos por Whatsapp
+                <span>22.23.21.51.47</span>
