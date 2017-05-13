@@ -4,11 +4,11 @@
 
 <img src="http://www.pngall.com/wp-content/uploads/2016/07/Anime-Download-PNG.png" style="width: 300px; height: auto;" alt="anime"/><br>
 
-Pagina de prueba, perdón por las imágenes porno! XD<br>No tenia otras a la mano para poder usar rapido...
+Ya quitamos las imagenes porno! WIIIII!!!!<br>
 
 <hr><br>
 
-Segunda pagina para <a href="http://orangepuebla.com" target="_blank">orangepuebla.com</a>.<br>
+Segundo sitio web para <a href="http://orangepuebla.com" target="_blank">orangepuebla.com</a>.<br>
 Basada en el diseño de CleanWork Orange.
 
 <hr><br>
@@ -16,6 +16,8 @@ Basada en el diseño de CleanWork Orange.
 Imágenes y concepto a cargo de la propia empresa.<br>Programación a cargo de Limbo City.
 
 <h><br>
+
+Se mejoro la velocidad de carga conciderablemente, y ahora se adapta a dispositivos moviles.
 
 Lynild02.<br> <i>Angel de Jesus Gomez Juarez.</i>
 Limbo City<br>
