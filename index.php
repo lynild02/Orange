@@ -15,13 +15,6 @@
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/master.min.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/responsiveslides.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script>
-      $(function() {
-        $(".rslides").responsiveSlides({speed: 900});
-      });
-    </script>
   </head>
   <body class="page-overview">
     <header class="header-t">
@@ -41,8 +34,8 @@
     <div id="hdr" class="wrapp">
       <div class="hero-slide headerimg">
         <ul class="rslides">
-          <li><img src="img/slides/h01.jpg" alt="orange_dog"></li>
           <li><img src="img/slides/h02.jpg" alt="orange_seat"></li>
+          <li><img src="img/slides/h01.jpg" alt="orange_dog"></li>
           <li><img src="img/slides/h03.jpg" alt="orange_arm"></li>
         </ul>
       </div>
@@ -170,4 +163,11 @@
       </article>
     </footer>
   </body>
+  <script type="text/javascript" src="js/responsiveslides.min.js"></script>
+  <script type="text/javascript" src="js/main.js" async="async"></script>
+  <script>
+    $(function() {
+      $(".rslides").responsiveSlides({speed: 900});
+    });
+  </script>
 </html>
