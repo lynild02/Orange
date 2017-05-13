@@ -31,15 +31,15 @@
       </figure><img id="secondlogo" src="img/logo_b.png" alt="bravhac_logo">
       <nav>
         <ul>
-          <li><a href="#">¿Quien?</a></li>
-          <li><a href="#">¿Que Hacemos?</a></li>
-          <li><a href="#">¿Como?</a></li>
-          <li><a href="#">Servicios</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#hdr">¿Quien?</a></li>
+          <li><a href="#what">¿Que Hacemos?</a></li>
+          <li><a href="#how">¿Como?</a></li>
+          <li><a href="#servs">Servicios</a></li>
+          <li><a href="#hcont">Contacto</a></li>
         </ul>
       </nav>
     </header>
-    <div class="wrapp">
+    <div id="hdr" class="wrapp">
       <div class="hero-slide headerimg">
         <ul class="rslides">
           <li><img src="img/slides/h01.jpg" alt="orange_dog"></li>
@@ -47,7 +47,7 @@
           <li><img src="img/slides/h03.jpg" alt="orange_arm"></li>
         </ul>
       </div>
-      <div class="what">
+      <div id="what" class="what">
         <div id="square-orange">
           <h4>¿QUÉ HACEMOS?</h4>
           <p>Cleanwork Orange® es un proceso en seco de desinfección y sanitización de colchones, con tecnología alemana, totalmente natural. El tratamiento garantiza la protección del colchón, eliminando y destruyendo ácaros, bacterias, moho y otros tipos de residuos que se encuentran en su colchón. De eficacia comprobada y beneficios inimaginables para su salud y confort. Además de ser un sistema efectivo e inofensivo, el servicio se presta a domicilio sin retirar en ningún momento el colchón, se realiza durante un período de tiempo que depende del tamaño de su colchón entre 20 y 40 minutos y éste podrá ser usado de inmediato.</p>
@@ -61,7 +61,7 @@
             </figure>
             <figure class="columns four"><img src="img/fig2.jpg" title="vestiduras" alt="vestiduras" attr>
               <figcaption>
-                Tecnología avanza de espuma ultra-seca (aplicable a telas, piel y alfombra).<br/>
+                Tecnología avanzada de espuma ultra-seca (aplicable a telas, piel y alfombra).<br/>
                 Usa miles de pequeñas burbujas, las cuales son 90% aire y solamente 10% humedad. Junto con nuestros detergentes son el perfecto sistema de encapsulación de mugre.
               </figcaption>
             </figure>
@@ -73,38 +73,40 @@
       </div>
       <div class="tech">
         <article class="container">
-          <p>Tecnología avanzada de <span>Espuma Ultra-seca<br>(aplicable a telas, piel y alfombras)</span><br><br>Usa miles de pequeñas burbujas, las cuales son 90% aire y 10% humedad. Junto con nuestros detergentes son el mejor sistema de encapsulación de mugre.<br><br>!No galones de agua¡,así las alfombras y la tapicería de muebles y vestiduras quedan limpias y realmente secas en una hora o menos. Otros métodos de limpieza dejan exceso de agua sucia, por lo que las alfombras y muebles tardan mucho tiempo en secarse y corren el riesgo de generar malos olores y moho además fácilmente se re ensucian.<br><br>Para limpiar muebles, colchones, autos, vans, suv, tráileres, casas rodantes, botes y otros tipos de interiores.</p>
-          <div>
-            <figure><img src="source" title="title" alt="alt" attr>
-              <figcaption>Amigable con el medio ambiente</figcaption>
-            </figure>
-            <figure><img src="source" title="title" alt="alt" attr>
-              <figcaption>Baja humedad, secado rapido</figcaption>
-            </figure>
-            <figure><img src="source" title="title" alt="alt" attr>
-              <figcaption>Limpieza y extracción profunda</figcaption>
-            </figure>
-            <figure><img src="source" title="title" alt="alt" attr>
-              <figcaption>La manera segura de limpiar</figcaption>
-            </figure>
-            <figure><img src="source" title="title" alt="alt" attr>
-              <figcaption>Se mantiene limpio por mas tiempo</figcaption>
-            </figure>
-          </div>
-          <p><span>Importante mencionar que con esta tecnología también se limpian salas o vestiduras de PIEL.</span></p>
+          <p><b>Tecnología avanzada de <span>Espuma Ultra-seca<br>(aplicable a telas, piel y alfombras)</span></b><br><br>Usa miles de pequeñas burbujas, las cuales son 90% aire y 10% humedad. Junto con nuestros detergentes son el mejor sistema de encapsulación de mugre.<br><br>!No galones de agua¡,así las alfombras y la tapicería de muebles y vestiduras quedan limpias y realmente secas en una hora o menos. Otros métodos de limpieza dejan exceso de agua sucia, por lo que las alfombras y muebles tardan mucho tiempo en secarse y corren el riesgo de generar malos olores y moho además fácilmente se re ensucian.<br><br>Para limpiar muebles, colchones, autos, vans, suv, tráileres, casas rodantes, botes y otros tipos de interiores.</p><img src="img/lults.jpg" alt="lults">
+          <!--div
+          //figure
+            //img(src='source', title="title", alt="alt", attr)
+            //figcaption Amigable con el medio ambiente
+          //figure
+            //img(src='source', title="title", alt="alt", attr)
+            //figcaption Baja humedad, secado rapido
+          //figure
+            //img(src='source', title="title", alt="alt", attr)
+            //figcaption Limpieza y extracción profunda
+          //figure
+            //img(src='source', title="title", alt="alt", attr)
+            //figcaption La manera segura de limpiar
+          //figure
+            //img(src='source', title="title", alt="alt", attr)
+            //figcaption Se mantiene limpio por mas tiempo
+          -->
+          <p><b><span>Importante mencionar que con esta tecnología también se limpian salas o vestiduras de PIEL.</span></b></p>
         </article>
       </div>
       <div class="tech">
-        <h4><b>Alfombras y <span>tapetes</span></b></h4>
-        <p>El limpiador de alfombras en seco de formulación exclusiva, esta diseñado para usarse en muchas aplicaciones y satisfacer todas sus necesidades de limpieza de alfombras y tapetes. Eliminan manchas, derrames y suciedad grasosa o aceitosa.</p><img src="img/circles.png" alt="servicios">
+        <article class="container">
+          <h4><b>Alfombras y <span>tapetes</span></b></h4>
+          <p>El limpiador de alfombras en seco de formulación exclusiva, esta diseñado para usarse en muchas aplicaciones y satisfacer todas sus necesidades de limpieza de alfombras y tapetes. Eliminan manchas, derrames y suciedad grasosa o aceitosa.</p><img src="img/circles.png" alt="servicios">
+        </article>
       </div>
-      <div class="how">
+      <div id="how" class="how">
         <article class="container">
           <h2>COMO LO HACEMOS?</h2>
           <div class="row img-row">
-            <video src="video/01.mp4" type="video/mp4" controls preload class="columns four"></video>
-            <video src="video/01.mp4" type="video/mp4" controls preload class="columns four"></video>
-            <video src="video/01.mp4" type="video/mp4" controls preload class="columns four"></video>
+            <video src="http://orangepuebla.com/video/orange_p2.mp4" type="video/mp4" controls preload poster="img/video-thumb.jpg" class="columns four"></video>
+            <video src="http://orangepuebla.com/video/orange_p3.mp4" type="video/mp4" controls preload poster="img/video-thumb.jpg" class="columns four"></video>
+            <video src="http://orangepuebla.com/alter/assets/cleanwork-orange(2).mp4" type="video/mp4" controls preload poster="img/video-thumb.jpg" class="columns four"></video>
           </div>
           <p>La limpieza profunda y desinfección de colchones funciona así: La máquina utiliza un potente sistema de aspiración y emite vibraciones de alta frecuencia las cuales destruyen y extraen a los ácaros y muchos otros microorganismos presentes en el colchón. Además cuenta con una luz UV-C germicida que desactiva el ADN de bacterias, virus y otros agentes patógenos destruyendo su capacidad de multiplicarse y causar enfermedades. La cantidad de ácaros, sus excrementos y demás microorganismos que se pueden encontrar en un colchón varía, pero en ocasiones puede representar hasta un 20% del peso total del colchón.</p>
         </article>
@@ -112,40 +114,42 @@
       <div class="cert">
         <article class="container">
           <h3>CERTIFICACIONES</h3>
-          <div class="row"><img src="img/cert.jpg" alt="cert" class="columns four"><img src="img/cert.jpg" alt="cert" class="columns four"><img src="img/cert.jpg" alt="cert" class="columns four"></div>
+          <div class="row"><img src="img/cert1.png" alt="cert" class="columns four"><img src="img/cert2.png" alt="cert" class="columns four"><img src="img/cert3.png" alt="cert" class="columns four"></div>
         </article>
       </div>
-      <div class="our-servs">
+      <div id="servs" class="our-servs">
         <article class="container">
           <h3>NUESTROS SERVICIOS</h3>
           <div class="row">
-            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+            <figure class="columns four"><img src="img/ser1.jpg" title="title" alt="alt" attr>
               <figcaption>limpieza y desinfección de colchones (&aacute;caros)</figcaption>
             </figure>
-            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+            <figure class="columns four"><img src="img/ser2.jpg" title="title" alt="alt" attr>
               <figcaption>limpieza y desinfeccón de tapicerías a baja humedad</figcaption>
             </figure>
-            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+            <figure class="columns four"><img src="img/ser3.jpg" title="title" alt="alt" attr>
               <figcaption>LIMPIEZA Y DESINFECCIÓN EN SECO PARA TAPETES, ALFOMBRAS Y CUALQUIER TIPO DE MUEBLE TAPIZADO CON TEXTILES</figcaption>
             </figure>
           </div>
           <div class="row">
-            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+            <figure class="columns four"><img src="img/ser4.jpg" title="title" alt="alt" attr>
               <figcaption>LIMPIEZA DE VESTIDURAS DE AUTOS</figcaption>
             </figure>
-            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+            <figure class="columns four"><img src="img/ser5.jpg" title="title" alt="alt" attr>
               <figcaption>LIMPIEZA DE MAMPARAS</figcaption>
             </figure>
-            <figure class="columns four"><img src="source" title="title" alt="alt" attr>
+            <figure class="columns four"><img src="img/ser6.jpg" title="title" alt="alt" attr>
               <figcaption>LIMPIEZA DE SALAS Y VESTIDURAS DE PIEL</figcaption>
             </figure>
           </div>
         </article>
       </div>
       <div class="percent">
-        <p>Algunos estudios de investigación han mostrado que una limpieza con nuestro sistema reduce:</p>
-        <div class="row"></div>
-        <p>No se forma moho ni añublo (hongo) por la humedad de las alfombras.</p>
+        <article class="container">
+          <p><b>Algunos estudios de investigación han mostrado que una limpieza con nuestro sistema reduce:</b></p>
+          <div id="perc"><img src="img/percent.png" alt="percent"></div>
+          <p><b>No se forma moho ni añublo (hongo) por la humedad de las alfombras.</b></p>
+        </article>
       </div>
       <div class="juntas">
         <div id="left-l">
