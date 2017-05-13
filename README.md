@@ -6,16 +6,16 @@
 
 Pagina de prueba, perdón por las imágenes porno! XD<br>No tenia otras a la mano para poder usar rapido...
 
-//////////////////////////////////////////////////////<br>
+<hr><br>
 
 Segunda pagina para <a href="http://orangepuebla.com" target="_blank">orangepuebla.com</a>.<br>
 Basada en el diseño de CleanWork Orange.
 
-//////////////////////////////////////////////////////<br>
+<hr><br>
 
 Imágenes y concepto a cargo de la propia empresa.<br>Programación a cargo de Limbo City.
 
-//////////////////////////////////////////////////////<br>
+<h><br>
 
 Lynild02.<br> <i>Angel de Jesus Gomez Juarez.</i>
 Limbo City<br>
