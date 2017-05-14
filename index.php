@@ -11,13 +11,21 @@
     <link rel="icon" href="src/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/formulary.css">
     <link rel="stylesheet" href="css/master.min.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
   </head>
   <body class="page-overview">
     <header class="header-t">
+      <div id="mail-box">
+        <p>
+          <img class='twoimg' src='img/wii.png'/>&nbsp;<span>22.23.21.51.47</span><br>
+          <img class='oneimg' src='img/mili.png'/>&nbsp; info@orangepuebla.com
+        </p>
+      </div>
       <figure id="mainlogo"><img src="img/logo.png" alt="orange_logo">
         <figcaption>ORANGE PUEBLA </figcaption>
       </figure><img id="secondlogo" src="img/logo_b.png" alt="bravhac_logo">
@@ -40,6 +48,7 @@
         </ul>
       </div>
       <div id="what" class="what">
+        <video src="img/video-o.mp4" preload controls poster="img/video-thumb.jpg"></video>
         <div id="square-orange">
           <h4>¿QUÉ HACEMOS?</h4>
           <p>Cleanwork Orange® es un proceso en seco de desinfección y sanitización de colchones, con tecnología alemana, totalmente natural. El tratamiento garantiza la protección del colchón, eliminando y destruyendo ácaros, bacterias, moho y otros tipos de residuos que se encuentran en su colchón. De eficacia comprobada y beneficios inimaginables para su salud y confort. Además de ser un sistema efectivo e inofensivo, el servicio se presta a domicilio sin retirar en ningún momento el colchón, se realiza durante un período de tiempo que depende del tamaño de su colchón entre 20 y 40 minutos y éste podrá ser usado de inmediato.</p>
@@ -108,7 +117,7 @@
           </div>
           <div class="row">
             <figure class="columns four"><img src="img/ser4.jpg" title="title" alt="alt" attr>
-              <figcaption>LIMPIEZA DE VESTIDURAS DE AUTOS</figcaption>
+              <figcaption>LIMPIEZA DE VESTIDURAS DE AUTOS DE PIEL Y TELA</figcaption>
             </figure>
             <figure class="columns four"><img src="img/ser5.jpg" title="title" alt="alt" attr>
               <figcaption>LIMPIEZA DE MAMPARAS</figcaption>
@@ -138,17 +147,27 @@
       <article class="container">
         <div class="row">
           <div class="sectionist columns four">
-            <form id="ajax-form" action="mail-it.php" method="post" name="ajax-form" class="contacto orange-c">
+            <form id="ajax-form" action="mail-it.php" method="post" name="ajax-form" class="orange-c contacto">
               <input id="name" type="text" name="name" placeholder="Nombre">
-              <input id="tel" type="text" name="tel" placeholder="Telefono">
+              <input id="tel" type="tel" name="tel" placeholder="Telefono">
               <input id="mail" type="email" name="mail" placeholder="Su correo electronico">
               <textarea name="message" cols="40" rows="3"></textarea>
               <input type="submit" name="enviar" value="Enviar" class="send send_message button-primary">
+              <div id="err-form" class="error text-align-center">
+                <Error>de conexión con el Servidor!</Error>
+              </div>
+              <div id="err-state" class="error">
+                <Simplemente>algo salio mal :(</Simplemente>
+              </div>
             </form>
+            <div id="ajaxsuccess">
+              <Mensaje>Enviado!</Mensaje>
+            </div>
           </div>
           <div class="sectionist text-n columns four">
             <h4>llamanos</h4>
-            <h2><a href="2223215147" attr="celphone">22.23.21.51.47</a></h2><img src="img/fb.png" class="rsoc">
+            <h2><a href="2223215147" attr="celphone">22.23.21.51.47</a></h2>
+            <figure id="fbsoc" class="rsoc"><img src="img/fb.png"><a href="https://www.facebook.com/cleanworkorangepuebla" title="orangepuebla" attr target="_blank"></a></figure>
             <p>Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien</p><img src="img/visa.png">
           </div>
           <div class="sectionist text-n columns four">
@@ -157,14 +176,17 @@
             <p>
               Contáctanos por Whatsapp
               <span>22.23.21.51.47</span>
-            </p>
+            </p><img src="img/logo_b.png">
           </div>
         </div>
       </article>
     </footer>
   </body>
+  <div class="call-us animated infinite pulse"><img src="img/call.png"><a href="tel:2223215147"></a></div>
   <script type="text/javascript" src="js/responsiveslides.min.js"></script>
   <script type="text/javascript" src="js/main.js" async="async"></script>
+  <script type="text/javascript" src="js/contact.js" async="async"></script>
+  <script type="text/javascript" src="js/html5.js" async="async"></script>
   <script>
     $(function() {
       $(".rslides").responsiveSlides({speed: 900});

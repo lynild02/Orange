@@ -35,4 +35,7 @@ $(window).scroll(function(){
       }, 150 * (i+1));
     });
   };
+  //On click function
+  $('#fbsoc').click(function(){
+  });
 });

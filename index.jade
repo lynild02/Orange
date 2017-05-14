@@ -14,19 +14,19 @@ html(lang='es')
         //- ----- CSS Files ----- //
         link(rel='stylesheet', href='css/normalize.css')
         link(rel='stylesheet', href='css/skeleton.css')
+        link(rel='stylesheet', href='node_modules/animate.css/animate.css')
         link(rel='stylesheet', href='css/font-awesome.min.css')
         link(rel='stylesheet', href='css/font.css')
+        link(rel='stylesheet', href='css/formulary.css')
         link(rel='stylesheet', href='css/master.min.css')
         //- ----- JS Files ----- //
         script(type='text/javascript', src='js/jquery.min.js')
-        script(type='text/javascript', src='js/responsiveslides.min.js')
-        script(type='text/javascript', src='js/main.js')
-        script.
-          $(function() {
-            $(".rslides").responsiveSlides({speed: 900});
-          });
     body.page-overview
       header.header-t
+        #mail-box
+          p.
+            <img class='twoimg' src='img/wii.png'/>&nbsp;<span>22.23.21.51.47</span><br>
+            <img class='oneimg' src='img/mili.png'/>&nbsp; info@orangepuebla.com
         figure#mainlogo
           img(src='img/logo.png', alt='orange_logo')
           figcaption ORANGE PUEBLA 
@@ -47,12 +47,13 @@ html(lang='es')
         .hero-slide.headerimg
           ul.rslides
             li
-              img(src='img/slides/h01.jpg', alt='orange_dog')
-            li
               img(src='img/slides/h02.jpg', alt='orange_seat')
+            li
+              img(src='img/slides/h01.jpg', alt='orange_dog')
             li
               img(src='img/slides/h03.jpg', alt='orange_arm')
         .what#what
+          video(src='img/video-o.mp4' preload controls poster='img/video-thumb.jpg')
           #square-orange
             h4 ¿QUÉ HACEMOS?
             p.
@@ -118,7 +119,7 @@ html(lang='es')
             .row
               figure.columns.four
                 img(src='img/ser4.jpg', title="title", alt="alt", attr)
-                figcaption LIMPIEZA DE VESTIDURAS DE AUTOS
+                figcaption LIMPIEZA DE VESTIDURAS DE AUTOS DE PIEL Y TELA
               figure.columns.four
                 img(src='img/ser5.jpg', title="title", alt="alt", attr)
                 figcaption LIMPIEZA DE MAMPARAS
@@ -141,17 +142,25 @@ html(lang='es')
         article.container
           .row
             .sectionist.columns.four
-              form#ajax-form.contacto.orange-c(action='mail-it.php', method='post', name='ajax-form')
+              form#ajax-form.orange-c.contacto(action='mail-it.php', method='post', name='ajax-form')
                 input#name(type='text', name='name', placeholder='Nombre')
-                input#tel(type='text', name='tel', placeholder='Telefono')
+                input#tel(type='tel', name='tel', placeholder='Telefono')
                 input#mail(type='email', name='mail', placeholder='Su correo electronico')
                 textarea(name='message', cols='40', rows='3')
-                input.send.send_message.button-primary(type='submit', name='enviar', value='Enviar') 
+                input.send.send_message.button-primary(type='submit', name='enviar', value='Enviar')
+                #err-form.error.text-align-center
+                  Error de conexión con el Servidor!
+                #err-state.error
+                  Simplemente algo salio mal :(
+              #ajaxsuccess
+                Mensaje Enviado!
             .sectionist.text-n.columns.four
               h4 llamanos
               h2
                 a(href='2223215147', attr='celphone') 22.23.21.51.47
-              img.rsoc(src='img/fb.png')
+              figure.rsoc#fbsoc
+                img(src='img/fb.png')
+                a(href='https://www.facebook.com/cleanworkorangepuebla', title="orangepuebla", attr, target='_blank')
               p.
                 Encuentranos a traves de Facebook, preguntanos cualquier cosa y agenda una cita tambien
               img(src='img/visa.png')
@@ -163,3 +172,17 @@ html(lang='es')
               p.
                 Contáctanos por Whatsapp
                 <span>22.23.21.51.47</span>
+              img(src='img/logo_b.png')
+    .call-us.animated.infinite.pulse
+      img(src='img/call.png')
+      a(href='tel:2223215147')
+      
+    //- ----- JS Files ----- //
+    script(type='text/javascript', src='js/responsiveslides.min.js')
+    script(type='text/javascript', src='js/main.js', async='async')
+    script(type='text/javascript', src='js/contact.js', async='async')
+    script(type='text/javascript', src='js/html5.js', async='async')
+    script.
+      $(function() {
+        $(".rslides").responsiveSlides({speed: 900});
+      });
